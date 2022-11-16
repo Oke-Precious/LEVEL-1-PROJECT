@@ -1,0 +1,90 @@
+.navbar{
+    padding: 5pt 50px;
+}
+.sec1{
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.part2{
+    padding: 50px;
+}
+input{
+    padding: 10px;
+}
+.images img{
+    width: 180px;
+}
+table, tr, th{
+    border: 2px solid black;
+}
+.inches{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inches h6{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.rad{
+    display: none;
+}
+.wh{
+    background-color: white;
+    color: black;
+}
+.bk{
+    background-color: black;
+    color: white;
+}
+.wh:hover{
+    background-color: black;
+    color: white;
+}
+.bk:hover{
+    background-color: white;
+    color: black;
+}
+
+.bbtn{
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.plogo{
+    width: 20px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .sec1{
+        display: block;
+        padding: 20px;
+    }
+    .rad{
+        display: flex;
+    }
+    .rad1{
+        display: none;
+    }
+    .images{
+        align-items: center;
+        width: 100%;
+    }
+    .images img{
+        width: 100%;
+    }
+    .part1 img{
+        width: 100%;
+    }
+    .part2{
+        margin-top: 50px;
+        padding: 0;
+    }
+    
+}
